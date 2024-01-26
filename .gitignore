@@ -1,0 +1,39 @@
+# Files to be explicitly ignored by GitHub.
+# Last Edited: 2024-01-26
+# Created By: Ollie Tooth
+
+# Ignore vscode & tutorials .ipynb files.
+.DS_Store
+.vscode/
+**/*.ipynb_checkpoints/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+# Development .ipynb files.
+/pyCDFTOOLS/test_funcs.ipynb
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Sphinx documentation
+docs/_build/
+docs/_autosummary/
